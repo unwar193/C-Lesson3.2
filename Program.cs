@@ -16,6 +16,4 @@ int Bz = int.Parse(Console.ReadLine()!);
 
 double result = Math.Sqrt(Math.Pow(Ax - Bx, 2) + Math.Pow(Ay - By, 2) + Math.Pow(Az - Bz, 2));
 
-string result2 = result.ToString("#.00");
-
 Console.WriteLine(result.ToString("#.00"));
